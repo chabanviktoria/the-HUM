@@ -1,0 +1,16 @@
+.header {
+    background: url(../../images/hero_bg.jpg);
+    
+    .header__container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        background: rgba(94, 93, 88, 0.6);
+    }
+
+    .header__list {
+        display: flex;
+        column-gap: 21px;
+    }
+}
