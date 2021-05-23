@@ -23,6 +23,7 @@
 
 html {
   font-size: 16px;
+  color: #FFFFFF;
 }
 
 .container {
@@ -42,7 +43,11 @@ a {
   background: url(../../images/hero_bg.jpg);
 }
 
-.header .header__container {
+.header__menu {
+  background: rgba(94, 93, 88, 0.6);
+}
+
+.header__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -53,14 +58,27 @@ a {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  background: rgba(94, 93, 88, 0.6);
 }
 
-.header .header__list {
+.header__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-column-gap: 21px;
           column-gap: 21px;
+}
+
+.header__list__li:hover {
+  border-bottom: 2px solid #18CFAB;
+}
+
+.header__link {
+  color: #FFFFFF;
+}
+
+.header__link:hover {
+  color: #18CFAB;
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,16 +1,37 @@
 .header {
     background: url(../../images/hero_bg.jpg);
     
-    .header__container {
+    &__menu {
+        background: rgba(94, 93, 88, 0.6);
+    }
+
+    &__container {
         display: flex;
         justify-content: space-around;
         align-items: center;
         flex-wrap: wrap;
-        background: rgba(94, 93, 88, 0.6);
     }
 
-    .header__list {
+    &__list {
+    
         display: flex;
         column-gap: 21px;
+
+        &__li:hover {
+            border-bottom: 2px solid $color-secondary;
+        }
     }
+    
+    &__link {
+            color: $color-main;}
+
+            &__link:hover {
+                color: $color-secondary;
+                
+                transition-duration: 2s;
+    }
+
+    
+            
+        
 }
