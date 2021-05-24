@@ -41,6 +41,7 @@ a {
 
 .header {
   background: url(../../images/hero_bg.jpg);
+  min-height: 1012px;
 }
 
 .header__menu {
@@ -68,10 +69,6 @@ a {
           column-gap: 21px;
 }
 
-.header__list__li:hover {
-  border-bottom: 2px solid #18CFAB;
-}
-
 .header__link {
   color: #FFFFFF;
 }
@@ -80,5 +77,48 @@ a {
   color: #18CFAB;
   -webkit-transition-duration: 2s;
           transition-duration: 2s;
+}
+
+.header__title {
+  text-align: center;
+  margin: 264px 0 134px;
+}
+
+.header__title h1 {
+  font-size: 78px;
+}
+
+.header__title p {
+  font-size: 35px;
+}
+
+.header__title-font {
+  color: #18CFAB;
+}
+
+.header__title-paragraph {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.header__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 26px;
+          column-gap: 26px;
+}
+
+.header__btn {
+  background: #18CFAB;
+  color: #FFFFFF;
+  border-style: none;
+  border-radius: 10px;
+  -webkit-box-shadow: 10 5 20px #FFFFFF;
+          box-shadow: 10 5 20px #FFFFFF;
+  min-width: 134px;
+  padding: 16px 0;
 }
 /*# sourceMappingURL=main.css.map */

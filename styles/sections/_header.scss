@@ -1,5 +1,6 @@
 .header {
     background: url(../../images/hero_bg.jpg);
+    min-height: 1012px;
     
     &__menu {
         background: rgba(94, 93, 88, 0.6);
@@ -16,10 +17,6 @@
     
         display: flex;
         column-gap: 21px;
-
-        &__li:hover {
-            border-bottom: 2px solid $color-secondary;
-        }
     }
     
     &__link {
@@ -27,11 +24,47 @@
 
             &__link:hover {
                 color: $color-secondary;
-                
                 transition-duration: 2s;
     }
 
+    &__title {
+        text-align: center;
+        margin: 264px 0 134px;
+
+        h1 {
+            font-size: 78px;
+        }
+
+        p {
+            font-size: 35px;
+        }
+
+        &-font {
+            color: $color-secondary;
+        }
+
+        &-paragraph {
+            color: rgba(255,255,255,0.5)
+        }
+
     
-            
+    }
+
+    &__button {
+        display: flex;
+        justify-content: center;
+        column-gap: 26px;
+    }
+
+    &__btn {
+        background: $color-secondary;
+        color: $color-main;
+        border-style: none;
+        border-radius: 10px;
+        box-shadow: 10 5 20px #FFFFFF;
+        min-width: 134px;
+        padding: 16px 0;
         
+    }
+
 }
