@@ -69,6 +69,10 @@ a {
           column-gap: 21px;
 }
 
+.header__li:hover {
+  border-bottom: 5px solid #18CFAB;
+}
+
 .header__link {
   color: #FFFFFF;
 }
@@ -120,5 +124,17 @@ a {
           box-shadow: 0 -5px 0 rgba(255, 255, 255, 0.9);
   min-width: 134px;
   padding: 16px 0;
+  outline-style: none;
+}
+
+.header__btn__btn:hover {
+  background-color: #13a185;
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
+}
+
+.header__btn__btn:active {
+  background-color: #00CBF6;
+  outline-style: none;
 }
 /*# sourceMappingURL=main.css.map */

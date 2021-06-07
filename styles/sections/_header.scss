@@ -1,7 +1,7 @@
 .header {
     background: url(../../images/hero_bg.jpg);
     min-height: 1012px;
-    
+
     &__menu {
         background: rgba(94, 93, 88, 0.6);
     }
@@ -14,17 +14,21 @@
     }
 
     &__list {
-    
         display: flex;
         column-gap: 21px;
     }
-    
-    &__link {
-            color: $color-main;}
 
-            &__link:hover {
-                color: $color-secondary;
-                transition-duration: 2s;
+    &__li:hover {
+        border-bottom: 5px solid $color-secondary;
+    }
+
+    &__link {
+        color: $color-main;
+    }
+
+    &__link:hover {
+        color: $color-secondary;
+        transition-duration: 2s;
     }
 
     &__title {
@@ -44,10 +48,8 @@
         }
 
         &-paragraph {
-            color: rgba(255,255,255,0.5)
+            color: rgba(255, 255, 255, 0.5)
         }
-
-    
     }
 
     &__button {
@@ -64,7 +66,18 @@
         box-shadow: 0 -5px 0 rgba(255, 255, 255, 0.9);
         min-width: 134px;
         padding: 16px 0;
-        
+        outline-style: none;
+    
+
+    &__btn:hover {
+        background-color: darken($color-secondary, 10%);
+        transition-duration: 2s;
     }
+
+    &__btn:active {
+        background-color: $color-btnactive;
+        outline-style: none;
+    }
+}
 
 }
