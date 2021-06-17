@@ -1,0 +1,54 @@
+.options {
+    padding: 5px 0;
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: 40% 85px;
+        position: relative;
+        
+
+        &-item {
+            flex: 1 1 calc(100%/4);
+            background-repeat: no-repeat;
+            background-position: center;
+            padding: 232px 0 110px;
+            text-align: center;
+        }
+    }
+
+
+}
+
+.item-odd {
+    background-color: $color-bgdark;
+
+    a {
+        color: $color-secondary;
+    }
+}
+
+.item-even {
+    background-color: $color-secondary;
+
+    a {
+        color: $color-main;
+    }
+}
+
+ .item-finger {
+     background-image: url(../../images/icon_finger.svg);
+ }
+
+ .item-diamond {
+     background-image: url(../../images/icon_diamond.svg);
+ }
+
+ .item-lamp {
+     background-image: url(../../images/icon_lamp.svg);
+ }
+
+ .item-devices {
+     background-image: url(../../images/icon_devices.svg);
+ }

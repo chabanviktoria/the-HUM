@@ -16,11 +16,12 @@
     &__list {
         display: flex;
         column-gap: 21px;
+    
+        &-item:hover {
+            border-bottom: 5px solid $color-secondary;
+        }
     }
 
-    &__li:hover {
-        border-bottom: 5px solid $color-secondary;
-    }
 
     &__link {
         color: $color-main;
